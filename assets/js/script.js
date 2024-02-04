@@ -23,6 +23,8 @@ pintar_negro ("black") */
 const button1 = document.querySelector ('#negro')
 const button2 = document.querySelector ('#rojo')
 const button3 = document.querySelector ('#verde')
+const button4 = document.querySelector ('#amarillo')
+const button5 = document.querySelector ('#azul')
 
 const pintar = (color)=>{
     elemento.style.backgroundColor = color
@@ -37,4 +39,10 @@ button2.addEventListener ("click",()=>{
 })
 button3.addEventListener ("click", ()=>{
     pintar ("green")
+})
+button4.addEventListener ("click", ()=>{
+    pintar ("#FFD300")
+})
+button5.addEventListener ("click", ()=>{
+    pintar ("blue")
 })
